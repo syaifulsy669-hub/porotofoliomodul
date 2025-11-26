@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Muhammad Syaiful</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Font Metal -->
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+  <!-- File CSS Utama -->
+  <link rel="stylesheet" href="style.css">
+</head>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">MUHAMMAD SYAIFUL</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentangsaya.html">Tentang saya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeri.html">galeri</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontak.html">kontak</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="modul.Html">Modul</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="position-relative">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pin1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pin2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="pin3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+    
+    <div class="sambutan position-absolute top-50 start-50 translate-middle text-center text-white">
+      <h1 class="welcome">selamat datang di web saya</h1>
+      
+    </div>
+  </div>
+</div>
+
+<div class="container my-5" id="tentang">
+  <h2  style="color: white;" class="text-center mb-4">Tentang Saya</h2>
+  <div class="row align-items-center">
+    <div class="col-md-4 text-center">
+      <img src="profil.jpg" class="img-fluid rounded-circle shadow" style="width: 200px;">
+    </div>
+    <div class="col-md-8">
+      <p class="lead">
+        Halo! saya <b>Muhammad Syaiful</b>,saya mahasiswa <b>Pendidikan Teknologi Informasi di Universitas sulawesi barat</b> 
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  <h2  style="color: white;"   class="text-center mb-4">Galeri</h2>
+  <div class="row g-3">
+    <div class="col-md-4 col-sm-6">
+      <img src="btcn.jpg" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <img src="black.jpg" class="img-fluid rounded shadow">
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <img src="bhrig.jpg" class="img-fluid rounded shadow">
+    </div>
+  </div>
+</div>
+
+<section class="kontak">
+  <div class="contact-box">
+    <h2>CONTACT</h2>
+    <p>Email: <a href="syaifulsy669@gmail.com">syaifulsy669@gmail.com</a></p>
+    <p>Telp: <a href="081527672184">081527672184</a>
+    <p>Alamat: Jl.Merdeka Lantora polewali</p>
+  </div>
+</section>
+
+<style>
+.kontak {
+  background-color: #1c1c1c; 
+  padding: 60px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  border: 1px solid #444;
+  padding: 30px 50px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #222;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.contact-box h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.contact-box a {
+  color: #a3d5ff;
+  text-decoration: none;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+</style>
+
+
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 MUHAMMAD SYAIFUL| Dibuat dengan Bootstrap</p>
+</footer>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
